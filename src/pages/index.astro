@@ -1,0 +1,115 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import StoryCard from '../components/StoryCard.astro';
+import { stories } from '../data/stories';
+
+const categories = ['All', 'Companies & products', 'Policy', 'Research', 'Education'];
+---
+
+<BaseLayout
+	title="AI News Brief — Current Signals, Clear Context"
+	description="A concise daily briefing on major AI products, policy, research, and education—with links to every original source."
+>
+	<div id="top">
+		<header class="site-header">
+			<a class="brand" href="#top" aria-label="AI News Brief home"><span class="brand-mark" aria-hidden="true">✦</span><span>AI NEWS BRIEF</span></a>
+			<nav class="nav-links" id="primary-nav" aria-label="Primary navigation"><a href="#today">Today</a><a href="#about">About this edition</a></nav>
+			<div class="header-actions">
+				<span class="edition-status"><span></span> Local MVP</span>
+				<button class="menu-button" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="primary-nav">
+					<svg class="menu-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"></path></svg>
+					<svg class="close-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"></path></svg>
+				</button>
+			</div>
+		</header>
+
+		<main>
+			<section class="dashboard-head shell">
+				<div><p class="overline">DAILY EDITION · SUNDAY</p><h1>The AI news<br />worth your attention.</h1></div>
+				<div class="edition-card">
+					<div><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"></rect><path d="M8 3v4M16 3v4M3 10h18"></path></svg><span>August 30, 2026</span></div>
+					<p>Six sourced updates across products, policy, research, and education.</p>
+					<span class="reading-time"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5l3 2"></path></svg>About 12 minutes</span>
+				</div>
+			</section>
+
+			<section id="today" class="news-shell shell">
+				<div class="filter-bar">
+					<fieldset class="filters" aria-label="Filter stories by category">
+						{categories.map((category) => <button type="button" class:list={{ active: category === 'All' }} data-filter={category}>{category}</button>)}
+					</fieldset>
+					<span class="result-count" aria-live="polite">{stories.length} stories</span>
+				</div>
+				<div class="story-list">{stories.map((story, index) => <StoryCard story={story} index={index} />)}</div>
+			</section>
+
+			<section id="about" class="about shell">
+				<p class="overline">ABOUT THIS EDITION</p>
+				<div><h2>Small, sourced, and designed for scanning.</h2><p>This first local version is manually curated. Every update links to its original source, separates the facts from our interpretation, and avoids a noisy infinite feed. Automated daily collection can come after the reading experience is right.</p></div>
+			</section>
+		</main>
+
+		<footer class="shell">
+			<a class="brand" href="#top"><span class="brand-mark" aria-hidden="true">✦</span><span>AI NEWS BRIEF</span></a>
+			<p>Current signals. Clear context.</p><span>Local edition · 2026</span>
+		</footer>
+	</div>
+</BaseLayout>
+
+<script>
+	const storageKey = 'ai-brief-saved';
+	const filterButtons = document.querySelectorAll<HTMLButtonElement>('[data-filter]');
+	const storyElements = document.querySelectorAll<HTMLElement>('[data-story]');
+	const saveButtons = document.querySelectorAll<HTMLButtonElement>('[data-save]');
+	const resultCount = document.querySelector<HTMLElement>('.result-count');
+	const menuButton = document.querySelector<HTMLButtonElement>('.menu-button');
+	const navigation = document.querySelector<HTMLElement>('.nav-links');
+	let saved: number[] = [];
+
+	try { saved = JSON.parse(localStorage.getItem(storageKey) ?? '[]'); }
+	catch { localStorage.removeItem(storageKey); }
+
+	function updateSavedButtons() {
+		for (const button of saveButtons) {
+			const id = Number(button.dataset.save);
+			const isSaved = saved.includes(id);
+			button.classList.toggle('saved', isSaved);
+			button.setAttribute('aria-pressed', String(isSaved));
+			const storyTitle = button.closest('[data-story]')?.querySelector('h2')?.textContent?.trim() ?? 'story';
+			button.setAttribute('aria-label', `${isSaved ? 'Remove' : 'Save'} ${storyTitle}${isSaved ? ' from saved stories' : ''}`);
+		}
+	}
+
+	for (const button of saveButtons) button.addEventListener('click', () => {
+		const id = Number(button.dataset.save);
+		saved = saved.includes(id) ? saved.filter((item) => item !== id) : [...saved, id];
+		localStorage.setItem(storageKey, JSON.stringify(saved));
+		updateSavedButtons();
+	});
+
+	for (const button of filterButtons) button.addEventListener('click', () => {
+		const activeCategory = button.dataset.filter ?? 'All';
+		let visibleCount = 0;
+		for (const candidate of filterButtons) candidate.classList.toggle('active', candidate === button);
+		for (const story of storyElements) {
+			const isVisible = activeCategory === 'All' || story.dataset.category === activeCategory;
+			story.hidden = !isVisible;
+			if (isVisible) visibleCount += 1;
+		}
+		if (resultCount) resultCount.textContent = `${visibleCount} ${visibleCount === 1 ? 'story' : 'stories'}`;
+	});
+
+	menuButton?.addEventListener('click', () => {
+		const isOpen = navigation?.classList.toggle('is-open') ?? false;
+		menuButton.classList.toggle('is-open', isOpen);
+		menuButton.setAttribute('aria-expanded', String(isOpen));
+	});
+
+	for (const link of navigation?.querySelectorAll('a') ?? []) link.addEventListener('click', () => {
+		navigation?.classList.remove('is-open');
+		menuButton?.classList.remove('is-open');
+		menuButton?.setAttribute('aria-expanded', 'false');
+	});
+
+	updateSavedButtons();
+</script>

@@ -1,0 +1,41 @@
+---
+import type { Story } from '../data/stories';
+
+interface Props {
+	story: Story;
+	index: number;
+}
+
+const { story, index } = Astro.props;
+---
+
+<article class="story" data-story data-category={story.category}>
+	<div class="story-index">{String(index + 1).padStart(2, '0')}</div>
+	<div class="story-main">
+		<div class="story-meta">
+			<span class="category">{story.category}</span>
+			<span>{story.source}</span>
+			<span>{story.date}</span>
+			<span>
+				<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5l3 2"></path></svg>
+				{story.readTime}
+			</span>
+		</div>
+		<h2>
+			<a href={story.url} target="_blank" rel="noreferrer">
+				{story.title}
+				<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 5h5v5M19 5l-9 9"></path><path d="M19 13v6H5V5h6"></path></svg>
+			</a>
+		</h2>
+		<p class="summary">{story.summary}</p>
+		<div class="why"><span>WHY IT MATTERS</span><p>{story.why}</p></div>
+		<a class="source-link" href={story.url} target="_blank" rel="noreferrer">
+			Read the original source
+			<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 5h5v5M19 5l-9 9"></path><path d="M19 13v6H5V5h6"></path></svg>
+		</a>
+	</div>
+	<button class="save" type="button" data-save={story.id} aria-label={`Save ${story.title}`} aria-pressed="false">
+		<svg class="bookmark-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 4h12v17l-6-4-6 4z"></path></svg>
+		<svg class="check-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 4 4L19 6"></path></svg>
+	</button>
+</article>
