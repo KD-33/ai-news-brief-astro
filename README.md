@@ -141,7 +141,7 @@ Frontmatter cannot respond to a reader's click because it runs before the static
 
 ## Personally chosen revision
 
-I retained category filters and browser-saved bookmarks even though the assignment permits deferring them until Week 3. The filters help a reader narrow a six-story edition by topic, and the bookmarks let a reader mark stories to revisit. I kept this interactivity in a small plain browser script rather than adding React to the Astro project. I verified that the Policy filter displays one story and that selecting a bookmark changes its pressed state and saves its ID in `localStorage`.
+I retained category filters and browser-saved bookmarks through recommendation of ChatGPT even though the assignment permits deferring them until Week 3. The filters help a reader narrow a six-story edition by topic, and the bookmarks let a reader mark stories to revisit. I kept this interactivity in a small plain browser script rather than adding React to the Astro project. I verified that the Policy filter displays one story and that selecting a bookmark changes its pressed state and saves its ID in `localStorage`.
 
 ## Verification evidence
 
