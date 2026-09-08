@@ -1,0 +1,13 @@
+---
+import EditionView from '../../components/EditionView.astro';
+import { editions, type Edition } from '../../data/editions';
+
+export function getStaticPaths() {
+	return editions.map((edition) => ({ params: { slug: edition.slug }, props: { edition } }));
+}
+
+interface Props { edition: Edition; }
+const { edition } = Astro.props;
+---
+
+<EditionView edition={edition} editions={editions} />
