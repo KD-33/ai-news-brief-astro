@@ -21,6 +21,16 @@ export type Edition = {
 
 export const editions: Edition[] = [
 	{
+		slug: '2026-09-11', dateLabel: 'September 11, 2026', dayLabel: 'Friday', readingTime: 'About 10 minutes',
+		dek: 'Four updates across autonomous agents, child safety, financial services, and lunar science.',
+		stories: [
+			{ id: '0911-agents-api', category: 'Companies & products', source: 'OpenAI', date: 'Sep 10, 2026', readTime: '5 min', title: 'OpenAI launches the Agents API for long-running autonomous AI', summary: 'The public-beta API gives developers access to infrastructure and an agent harness for systems that can work with tools, files, and code across long-running tasks.', why: 'Making long-running agent infrastructure available through an API could lower the barrier to building systems that independently execute complex work.', url: 'https://openai.com/index/introducing-the-agents-api/' },
+			{ id: '0911-adams-law', category: 'Policy', source: 'California Governor’s Office', date: 'Sep 10, 2026', readTime: '5 min', title: 'California signs landmark protections for children using AI chatbots', summary: 'Adam’s Law establishes crisis protocols, parental controls, safety notifications, independent child-safety audits, and annual risk assessments for AI companion chatbots used by children.', why: 'AI-chatbot safeguards are becoming legally enforceable product-design requirements, and California’s large market could influence products nationally.', url: 'https://www.gov.ca.gov/2026/09/10/governor-newsom-signs-the-strongest-child-safety-chatbot-and-social-media-laws-in-the-nation/' },
+			{ id: '0911-lunar-model', category: 'Research', source: 'IBM and NASA', date: 'Sep 10, 2026', readTime: '5 min', title: 'NASA and IBM release an open-source AI model for exploring the Moon', summary: 'The Lunar Foundation Model was trained on more than 30 aligned data layers from nine instruments across four lunar missions to help identify ice deposits, craters, and volcanic formations.', why: 'The project shows foundation models extending into specialized scientific discovery that could inform landing sites and sustained human activity on the Moon.', url: 'https://newsroom.ibm.com/2026-09-10-ibm-and-nasa-release-open-source-ai-model-to-support-lunar-exploration' },
+			{ id: '0911-financial-services', category: 'Companies & products', source: 'OpenAI', date: 'Sep 10, 2026', readTime: '5 min', title: 'OpenAI launches a specialized ChatGPT for Wall Street', summary: 'ChatGPT for Financial Services is designed to help bankers research, build financial models, and create client materials with citations to underlying financial data.', why: 'Finance is a consequential test for industry-specific AI because mistakes, confidentiality, and auditability carry substantial risks.', url: 'https://openai.com/index/introducing-chatgpt-financial-services/' },
+		],
+	},
+	{
 		slug: '2026-09-08', dateLabel: 'September 8, 2026', dayLabel: 'Tuesday', readingTime: 'About 10 minutes',
 		dek: 'Five updates across industry, safety, research, education, and physical AI.',
 		stories: [
