@@ -1,0 +1,180 @@
+{
+  "conversationId": "6a948097-76d4-83ea-a814-3d9112bfc046",
+  "importedOn": "2026-09-20",
+  "stories": [
+    {
+      "edition": "2026-09-16",
+      "storyId": "2026-09-16-1",
+      "sourceMessageId": "9e5b956f-1472-4eb0-94c9-e3d975c97af4",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-real-time-voice-applications-gemini-audio/",
+      "urlOrigin": "Daily AI Brief link"
+    },
+    {
+      "edition": "2026-09-16",
+      "storyId": "2026-09-16-2",
+      "sourceMessageId": "9e5b956f-1472-4eb0-94c9-e3d975c97af4",
+      "url": "https://techcrunch.com/2026/09/15/openai-anthropic-google-have-been-in-talks-on-ai-safety-for-weeks/",
+      "urlOrigin": "Daily AI Brief link"
+    },
+    {
+      "edition": "2026-09-16",
+      "storyId": "2026-09-16-3",
+      "sourceMessageId": "9e5b956f-1472-4eb0-94c9-e3d975c97af4",
+      "url": "https://apnews.com/article/2f4eab05b1e931456d00ebc2fe93c989",
+      "urlOrigin": "Recovered article source"
+    },
+    {
+      "edition": "2026-09-16",
+      "storyId": "2026-09-16-4",
+      "sourceMessageId": "9e5b956f-1472-4eb0-94c9-e3d975c97af4",
+      "url": "https://www.abc.net.au/news/2026-09-16/queensland-data-centre-anthropic-dalby/107160640",
+      "urlOrigin": "Daily AI Brief link"
+    },
+    {
+      "edition": "2026-09-16",
+      "storyId": "2026-09-16-5",
+      "sourceMessageId": "9e5b956f-1472-4eb0-94c9-e3d975c97af4",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/ai-economy-atlas-september-2026/",
+      "urlOrigin": "Daily AI Brief link"
+    },
+    {
+      "edition": "2026-09-17",
+      "storyId": "2026-09-17-1",
+      "sourceMessageId": "7805ca05-311b-4115-86e8-1dcb347fb0d8",
+      "url": "https://openai.com/index/model-misalignment-reporting-framework/",
+      "urlOrigin": "Recovered article source"
+    },
+    {
+      "edition": "2026-09-17",
+      "storyId": "2026-09-17-2",
+      "sourceMessageId": "7805ca05-311b-4115-86e8-1dcb347fb0d8",
+      "url": "https://claude.com/features/artifacts",
+      "urlOrigin": "Recovered article source"
+    },
+    {
+      "edition": "2026-09-17",
+      "storyId": "2026-09-17-3",
+      "sourceMessageId": "7805ca05-311b-4115-86e8-1dcb347fb0d8",
+      "url": "https://www.salesforce.com/news/press-releases/2026/09/15/koa-reasoning-model/",
+      "urlOrigin": "Recovered article source"
+    },
+    {
+      "edition": "2026-09-17",
+      "storyId": "2026-09-17-4",
+      "sourceMessageId": "7805ca05-311b-4115-86e8-1dcb347fb0d8",
+      "url": "https://www.straitstimes.com/tech/ai-may-need-aviation-style-safety-regulations-to-gain-trust-josephine-teo?ref=latest",
+      "urlOrigin": "Daily AI Brief link"
+    },
+    {
+      "edition": "2026-09-17",
+      "storyId": "2026-09-17-5",
+      "sourceMessageId": "7805ca05-311b-4115-86e8-1dcb347fb0d8",
+      "url": "https://www.novonordisk.com/news-and-media/news-and-ir-materials/news-details.html?id=916768",
+      "urlOrigin": "Recovered article source"
+    },
+    {
+      "edition": "2026-09-18",
+      "storyId": "2026-09-18-1",
+      "sourceMessageId": "9cf76971-b9ed-40f3-a9b1-35f7227dd312",
+      "url": "https://www.anthropic.com/institute/measuring-pace-of-ai-development",
+      "urlOrigin": "Daily AI Brief link"
+    },
+    {
+      "edition": "2026-09-18",
+      "storyId": "2026-09-18-2",
+      "sourceMessageId": "9cf76971-b9ed-40f3-a9b1-35f7227dd312",
+      "url": "https://www.abajournal.com/news/article/openai-introduces-new-ai-model-for-law-firms",
+      "urlOrigin": "Daily AI Brief link"
+    },
+    {
+      "edition": "2026-09-18",
+      "storyId": "2026-09-18-3",
+      "sourceMessageId": "9cf76971-b9ed-40f3-a9b1-35f7227dd312",
+      "url": "https://ca.marketscreener.com/news/anthropic-quietly-sets-up-biology-lab-as-it-ramps-ai-drug-program-ce785adadb8bf020",
+      "urlOrigin": "Recovered article source"
+    },
+    {
+      "edition": "2026-09-18",
+      "storyId": "2026-09-18-4",
+      "sourceMessageId": "9cf76971-b9ed-40f3-a9b1-35f7227dd312",
+      "url": "https://www.hacktron.ai/blog/hacking-openai",
+      "urlOrigin": "Recovered article source"
+    },
+    {
+      "edition": "2026-09-18",
+      "storyId": "2026-09-18-5",
+      "sourceMessageId": "9cf76971-b9ed-40f3-a9b1-35f7227dd312",
+      "url": "https://www.gov.ca.gov/2026/09/16/governor-newsom-signs-new-law-to-protect-workers-require-disclosures-on-ai-generated-advertising/",
+      "urlOrigin": "Daily AI Brief link"
+    },
+    {
+      "edition": "2026-09-19",
+      "storyId": "2026-09-19-1",
+      "sourceMessageId": "19caa462-e00e-412e-8952-9415e5c647dd",
+      "url": "https://amp.dw.com/en/googles-gemini-ai-hacked-3-companies-during-testing/a-79335273",
+      "urlOrigin": "Daily AI Brief link"
+    },
+    {
+      "edition": "2026-09-19",
+      "storyId": "2026-09-19-2",
+      "sourceMessageId": "19caa462-e00e-412e-8952-9415e5c647dd",
+      "url": "https://www.gov.ca.gov/2026/09/18/governor-newsom-issues-executive-order-to-accelerate-independent-oversight-and-advance-the-creation-of-an-ai-kill-switch/",
+      "urlOrigin": "Daily AI Brief link"
+    },
+    {
+      "edition": "2026-09-19",
+      "storyId": "2026-09-19-3",
+      "sourceMessageId": "19caa462-e00e-412e-8952-9415e5c647dd",
+      "url": "https://newsroom.accenture.com/news/2026/accenture-and-anthropic-partner-to-build-team-of-embedded-evaluators-at-anthropic",
+      "urlOrigin": "Recovered article source"
+    },
+    {
+      "edition": "2026-09-19",
+      "storyId": "2026-09-19-4",
+      "sourceMessageId": "19caa462-e00e-412e-8952-9415e5c647dd",
+      "url": "https://www.reuters.com/business/anthropic-considers-releasing-new-ai-model-ahead-ipo-sources-say-2026-09-19/",
+      "urlOrigin": "Recovered article source"
+    },
+    {
+      "edition": "2026-09-19",
+      "storyId": "2026-09-19-5",
+      "sourceMessageId": "19caa462-e00e-412e-8952-9415e5c647dd",
+      "url": "https://www.brookings.edu/articles/how-universities-are-affected-by-ai-moving-knowledge-outside-their-walls/",
+      "urlOrigin": "Daily AI Brief link"
+    },
+    {
+      "edition": "2026-09-20",
+      "storyId": "2026-09-20-1",
+      "sourceMessageId": "ef5368ba-85b6-4f18-b7a7-ce9a3e47db8c",
+      "url": "https://apnews.com/article/960af4308161eaf4ed13c383b0ce1c1b",
+      "urlOrigin": "Daily AI Brief link"
+    },
+    {
+      "edition": "2026-09-20",
+      "storyId": "2026-09-20-2",
+      "sourceMessageId": "ef5368ba-85b6-4f18-b7a7-ce9a3e47db8c",
+      "url": "https://www.axios.com/2026/09/19/trump-ai-czar-space-force-safety",
+      "urlOrigin": "Recovered article source"
+    },
+    {
+      "edition": "2026-09-20",
+      "storyId": "2026-09-20-3",
+      "sourceMessageId": "ef5368ba-85b6-4f18-b7a7-ce9a3e47db8c",
+      "url": "https://www.kqed.org/news/12100624/newsom-orders-california-agencies-to-develop-new-ai-safety-plans-after-rejecting-tougher-law",
+      "urlOrigin": "Daily AI Brief link"
+    },
+    {
+      "edition": "2026-09-20",
+      "title": "Big Tech is using increasingly complex financing to fund the AI infrastructure boom",
+      "status": "pending article URL",
+      "sourceMessageId": "ef5368ba-85b6-4f18-b7a7-ce9a3e47db8c"
+    },
+    {
+      "edition": "2026-09-20",
+      "storyId": "2026-09-20-5",
+      "sourceMessageId": "ef5368ba-85b6-4f18-b7a7-ce9a3e47db8c",
+      "url": "https://www.kish.edu/about/press-releases-media/press-releases/2026/free-ai-credentials/",
+      "urlOrigin": "Recovered article source"
+    }
+  ]
+}
