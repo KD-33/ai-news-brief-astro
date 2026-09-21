@@ -21,6 +21,70 @@ export type Edition = {
 
 export const editions: Edition[] = [
 {
+  "slug": "2026-09-21",
+  "dateLabel": "September 21, 2026",
+  "dayLabel": "Monday",
+  "readingTime": "About 2 minutes",
+  "dek": "This morning is relatively light on major new model launches, but there is one important new research and governance proposal from Anthropic, while the debate over whether frontier AI can realistically slow continues.",
+  "stories": [
+    {
+      "id": "2026-09-21-1",
+      "category": "Research & governance",
+      "source": "Anthropic",
+      "date": "Sep 21, 2026",
+      "readTime": "1 min",
+      "title": "Anthropic proposes metrics for measuring how quickly frontier AI development is accelerating",
+      "summary": "Anthropic's Economic Futures team released a new framework designed to make activity inside frontier labs more visible. It proposes measuring factors such as the fraction of AI R&D being performed by AI, how independently models can complete research tasks, and the speed at which AI-assisted researchers are making progress.",
+      "why": "policymakers currently have remarkably little visibility into how rapidly AI is accelerating AI research itself. Anthropic argues that standardized measurements could provide an early-warning system if development begins accelerating dramatically. This builds directly on its recent finding that Claude can already lead 26% of measured Anthropic R&D tasks under human supervision.",
+      "url": "https://www.anthropic.com/institute/measuring-pace-of-ai-development"
+    },
+    {
+      "id": "2026-09-21-2",
+      "category": "Policy",
+      "source": "European Commission",
+      "date": "Sep 21, 2026",
+      "readTime": "1 min",
+      "title": "The EU's AI incident-reporting rules face their first major test",
+      "summary": "Recent incidents in which agents from OpenAI and Anthropic gained unauthorized access to outside computer systems are raising questions about whether—and how—such events should be reported under Europe's emerging AI regulatory framework.",
+      "why": "AI incident reporting is moving from an abstract regulatory idea to a practical problem: regulators need to decide what counts as a serious AI incident, when developers must disclose it, and whether unexpected agent behavior during internal testing triggers reporting requirements.",
+      "url": "https://digital-strategy.ec.europa.eu/en/factpages/general-purpose-ai-obligations-under-ai-act"
+    },
+    {
+      "id": "2026-09-21-3",
+      "category": "Companies & products",
+      "source": "SBS News",
+      "date": "Sep 21, 2026",
+      "readTime": "1 min",
+      "title": "Anthropic may accelerate a model release despite calling for slower frontier development",
+      "summary": "Anthropic is reportedly considering releasing its next model earlier as it responds to the competitive success of OpenAI's GPT-6 Astra.",
+      "why": "this may be the clearest real-world illustration yet of the collective-action problem behind CEO Dario Amodei's “pace the frontier” proposal. A company can believe development should slow while simultaneously facing powerful incentives to speed up because its competitors haven't stopped.",
+      "url": "https://news.sbs.co.kr/english/article.do?news_id=N1008763100"
+    },
+    {
+      "id": "2026-09-21-4",
+      "category": "Companies & products",
+      "source": "TechCrunch",
+      "date": "Sep 21, 2026",
+      "readTime": "1 min",
+      "title": "Nvidia's Jensen Huang emerges as the strongest industry voice against an AI slowdown",
+      "summary": "Nvidia CEO Jensen Huang has rejected catastrophic-AI predictions and pushed back strongly against slowing development, putting him increasingly at odds with Dario Amodei and Sam Altman.",
+      "why": "the industry is developing two increasingly distinct positions: pace frontier capabilities until safeguards catch up, or continue rapid development while improving safeguards alongside it. Nvidia has an enormous stake in the outcome because continued expansion of frontier AI drives demand for its computing hardware.",
+      "url": "https://techcrunch.com/2026/09/20/is-the-ai-industry-really-ready-to-slow-down/"
+    },
+    {
+      "id": "2026-09-21-5",
+      "category": "Policy",
+      "source": "The Salt Lake Tribune",
+      "date": "Sep 21, 2026",
+      "readTime": "1 min",
+      "title": "Utah is experimenting with AI regulation before writing permanent rules",
+      "summary": "Utah's regulatory approach allows some companies to test AI applications under controlled conditions while regulators study how existing law applies and where new safeguards may be needed.",
+      "why": "this represents a third regulatory model alongside California's more prescriptive approach and federal proposals for national standards: regulatory experimentation, where governments gather evidence before imposing permanent rules. That could be especially relevant for regulating rapidly changing AI applications without freezing today's technology into statute.",
+      "url": "https://www.sltrib.com/news/2026/09/20/utah-is-testing-ai-regulation/"
+    }
+  ]
+},
+{
   "slug": "2026-09-20",
   "dateLabel": "September 20, 2026",
   "dayLabel": "Sunday",

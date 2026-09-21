@@ -1,6 +1,6 @@
 {
   "conversationId": "6a948097-76d4-83ea-a814-3d9112bfc046",
-  "importedOn": "2026-09-20",
+  "importedOn": "2026-09-21",
   "stories": [
     {
       "edition": "2026-09-16",
@@ -175,6 +175,41 @@
       "sourceMessageId": "ef5368ba-85b6-4f18-b7a7-ce9a3e47db8c",
       "url": "https://www.kish.edu/about/press-releases-media/press-releases/2026/free-ai-credentials/",
       "urlOrigin": "Recovered article source"
+    },
+    {
+      "edition": "2026-09-21",
+      "storyId": "2026-09-21-1",
+      "sourceMessageId": "13168514-bc2b-4d85-9b30-daf3a9ff8e68",
+      "url": "https://www.anthropic.com/institute/measuring-pace-of-ai-development",
+      "urlOrigin": "Daily AI Brief link"
+    },
+    {
+      "edition": "2026-09-21",
+      "storyId": "2026-09-21-2",
+      "sourceMessageId": "13168514-bc2b-4d85-9b30-daf3a9ff8e68",
+      "url": "https://digital-strategy.ec.europa.eu/en/factpages/general-purpose-ai-obligations-under-ai-act",
+      "urlOrigin": "Verified original regulatory source"
+    },
+    {
+      "edition": "2026-09-21",
+      "storyId": "2026-09-21-3",
+      "sourceMessageId": "13168514-bc2b-4d85-9b30-daf3a9ff8e68",
+      "url": "https://news.sbs.co.kr/english/article.do?news_id=N1008763100",
+      "urlOrigin": "Daily AI Brief link"
+    },
+    {
+      "edition": "2026-09-21",
+      "storyId": "2026-09-21-4",
+      "sourceMessageId": "13168514-bc2b-4d85-9b30-daf3a9ff8e68",
+      "url": "https://techcrunch.com/2026/09/20/is-the-ai-industry-really-ready-to-slow-down/",
+      "urlOrigin": "Daily AI Brief link"
+    },
+    {
+      "edition": "2026-09-21",
+      "storyId": "2026-09-21-5",
+      "sourceMessageId": "13168514-bc2b-4d85-9b30-daf3a9ff8e68",
+      "url": "https://www.sltrib.com/news/2026/09/20/utah-is-testing-ai-regulation/",
+      "urlOrigin": "Daily AI Brief link"
     }
   ]
 }
