@@ -1,6 +1,6 @@
 {
   "conversationId": "6a948097-76d4-83ea-a814-3d9112bfc046",
-  "importedOn": "2026-09-21",
+  "importedOn": "2026-09-22",
   "stories": [
     {
       "edition": "2026-09-16",
@@ -210,6 +210,41 @@
       "sourceMessageId": "13168514-bc2b-4d85-9b30-daf3a9ff8e68",
       "url": "https://www.sltrib.com/news/2026/09/20/utah-is-testing-ai-regulation/",
       "urlOrigin": "Daily AI Brief link"
+    },
+    {
+      "edition": "2026-09-22",
+      "storyId": "2026-09-22-1",
+      "sourceMessageId": "8b57f0f8-b5e2-4c7d-bfbb-8bf43b83420a",
+      "url": "https://www.reuters.com/legal/litigation/anthropic-openai-call-australia-relax-ban-training-ai-models-2026-09-22/",
+      "urlOrigin": "Daily AI Brief link"
+    },
+    {
+      "edition": "2026-09-22",
+      "storyId": "2026-09-22-2",
+      "sourceMessageId": "8b57f0f8-b5e2-4c7d-bfbb-8bf43b83420a",
+      "url": "https://www.reuters.com/legal/government/openai-calls-us-take-lead-global-efforts-develop-technical-standards-2026-09-21/",
+      "urlOrigin": "Daily AI Brief link"
+    },
+    {
+      "edition": "2026-09-22",
+      "storyId": "2026-09-22-3",
+      "sourceMessageId": "8b57f0f8-b5e2-4c7d-bfbb-8bf43b83420a",
+      "url": "https://www.reuters.com/business/amd-becomes-latest-chipmaker-reach-1-trillion-valuation-ai-demand-2026-09-21/",
+      "urlOrigin": "Daily AI Brief link"
+    },
+    {
+      "edition": "2026-09-22",
+      "storyId": "2026-09-22-4",
+      "sourceMessageId": "8b57f0f8-b5e2-4c7d-bfbb-8bf43b83420a",
+      "url": "https://www.insidehighered.com/news/student-success/college-experience/2026/09/22/5-ways-ai-reshaping-student-success",
+      "urlOrigin": "Daily AI Brief link"
+    },
+    {
+      "edition": "2026-09-22",
+      "storyId": "2026-09-22-5",
+      "sourceMessageId": "8b57f0f8-b5e2-4c7d-bfbb-8bf43b83420a",
+      "url": "https://www.axios.com/2026/09/21/ai-finance-credit-circular",
+      "urlOrigin": "Recovered article source"
     }
   ]
 }

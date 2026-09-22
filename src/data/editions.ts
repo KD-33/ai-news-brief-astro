@@ -21,6 +21,70 @@ export type Edition = {
 
 export const editions: Edition[] = [
 {
+  "slug": "2026-09-22",
+  "dateLabel": "September 22, 2026",
+  "dayLabel": "Tuesday",
+  "readingTime": "About 2 minutes",
+  "dek": "Today’s strongest developments center on copyright rules for AI training, international technical standards, the economics of the AI boom, and higher education’s response to widespread student AI use.",
+  "stories": [
+    {
+      "id": "2026-09-22-1",
+      "category": "Policy & law",
+      "source": "Reuters",
+      "date": "Sep 22, 2026",
+      "readTime": "1 min",
+      "title": "OpenAI and Anthropic challenge Australia’s restrictions on AI training data",
+      "summary": "OpenAI and Anthropic are urging Australia to reconsider rules that prevent AI developers from freely training models on copyrighted creative material. The companies are advocating a limited copyright exception while arguing that creators’ rights can still be protected.",
+      "why": "copyright is becoming one of the central legal questions determining where and how frontier models can be trained. Australia now faces the same fundamental tradeoff confronting the U.S., EU and UK: protecting creators while remaining competitive in AI development.",
+      "url": "https://www.reuters.com/legal/litigation/anthropic-openai-call-australia-relax-ban-training-ai-models-2026-09-22/"
+    },
+    {
+      "id": "2026-09-22-2",
+      "category": "Policy & standards",
+      "source": "Reuters",
+      "date": "Sep 22, 2026",
+      "readTime": "1 min",
+      "title": "OpenAI calls for U.S.-led international AI technical standards",
+      "summary": "OpenAI is urging the United States to lead international efforts to develop common technical standards for advanced AI, arguing that standards covering areas such as model evaluation and interoperability could help establish global rules while maintaining U.S. technological leadership.",
+      "why": "this is an important distinction in the regulation debate we’ve been tracking. Instead of relying solely on legislation—or private agreements among competing labs—technical standards could become a third layer of AI governance, similar to standards used in cybersecurity, telecommunications and other global technologies.",
+      "url": "https://www.reuters.com/legal/government/openai-calls-us-take-lead-global-efforts-develop-technical-standards-2026-09-21/"
+    },
+    {
+      "id": "2026-09-22-3",
+      "category": "Companies & markets",
+      "source": "Reuters",
+      "date": "Sep 22, 2026",
+      "readTime": "1 min",
+      "title": "AMD crosses a $1 trillion valuation as the AI-chip boom broadens beyond Nvidia",
+      "summary": "AMD surpassed a $1 trillion market capitalization for the first time after its shares climbed nearly 10%. Investor enthusiasm has increasingly focused on AMD’s attempt to compete across complete AI computing systems rather than chips alone.",
+      "why": "the infrastructure race supporting frontier AI is becoming large enough to create multiple trillion-dollar semiconductor companies. AMD’s rise also suggests that Nvidia may face increasingly meaningful competition as AI compute spending continues to expand.",
+      "url": "https://www.reuters.com/business/amd-becomes-latest-chipmaker-reach-1-trillion-valuation-ai-demand-2026-09-21/"
+    },
+    {
+      "id": "2026-09-22-4",
+      "category": "Education",
+      "source": "Inside Higher Ed",
+      "date": "Sep 22, 2026",
+      "readTime": "1 min",
+      "title": "New reporting examines whether universities are falling behind their students on AI",
+      "summary": "A new report warns that schools risk preparing students for an “AI-less world that no longer exists,” while separate U.S. reporting shows colleges increasingly using AI for tutoring, student support, career preparation and identifying students who may need assistance. Virginia lawmakers are now also seeking a formal study of how the state’s colleges are adopting AI.",
+      "why": "higher education’s AI debate is moving beyond academic integrity. Institutions increasingly have to decide which AI competencies graduates actually need—and how teaching itself should change when students already use AI routinely outside the classroom.",
+      "url": "https://www.insidehighered.com/news/student-success/college-experience/2026/09/22/5-ways-ai-reshaping-student-success"
+    },
+    {
+      "id": "2026-09-22-5",
+      "category": "Industry & finance",
+      "source": "Axios",
+      "date": "Sep 22, 2026",
+      "readTime": "1 min",
+      "title": "The financial structure supporting the AI boom is attracting scrutiny",
+      "summary": "New analysis warns that AI companies, cloud providers, chipmakers and data-center operators are becoming increasingly financially interconnected, while hyperscalers continue committing enormous amounts of cash to AI infrastructure. SoftBank, for example, is raising more than $11 billion through high-yield bonds partly to fund its OpenAI investment.",
+      "why": "the AI boom isn’t financed by technology companies acting independently. Developers, chipmakers, cloud providers and investors increasingly fund one another while simultaneously buying one another’s products, creating potential systemic financial risks if expected AI revenues fail to materialize.",
+      "url": "https://www.axios.com/2026/09/21/ai-finance-credit-circular"
+    }
+  ]
+},
+{
   "slug": "2026-09-21",
   "dateLabel": "September 21, 2026",
   "dayLabel": "Monday",

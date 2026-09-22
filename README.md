@@ -8,15 +8,15 @@ This repository contains the Week 2 Astro redesign of my original AI News Brief.
 
 **Purpose:** Present a small, manually curated edition that separates factual summaries from short explanations of why each development matters and links readers to every original source.
 
-**Included:** A dated archive of twenty-one editions from August 30 through September 20, 2026; selected stories covering products, policy, research, education, healthcare, and safety; dates, sources, reading times, summaries, significance explanations, original-source links, a responsive layout, per-edition category filters, and bookmarks saved in the current browser.
+**Included:** A dated archive of twenty-three editions from August 30 through September 22, 2026; selected stories covering products, policy, research, education, healthcare, and safety; dates, sources, reading times, summaries, significance explanations, original-source links, a responsive layout, per-edition category filters, and bookmarks saved in the current browser.
 
 **Excluded:** User accounts, a database, automatic news collection, email subscriptions, and synchronization between browsers or devices.
 
 ### Observable success criteria
 
-1. All fourteen editions have stable routes, retain their selected source information, summaries, and significance explanations, and are reachable from the archive selector.
+1. All twenty-three editions have stable routes, retain their selected source information, summaries, and significance explanations, and are reachable from the archive selector.
 2. The page remains readable and usable at a 1440-pixel desktop width and a 390-pixel narrow-screen width.
-3. `npm run build` succeeds, creates `dist/index.html`, and that generated file contains the four current-edition story titles.
+3. `npm run build` succeeds, creates `dist/index.html`, and that generated file contains the five current-edition story titles.
 
 ## Run the project locally
 
@@ -188,9 +188,9 @@ The public site is https://kd-33.github.io/ai-news-brief-astro/ . GitHub Actions
 
 The existing Codex automation **Publish Daily AI Brief to Astro** runs daily at 6:30 AM America/Chicago on the local Mac. It reads the completed **Daily AI Brief** conversation, imports missing editions (including missed days), validates the archive, builds, commits, and pushes. Keep the Mac awake and Codex running for local scheduled work. The automation requires access to the source conversation and GitHub; it reports failures rather than inventing replacement news. GitHub Actions handles the subsequent public deployment independently.
 
-September 16–21 were imported from the source conversation: 29 stories across six editions. The September 20 Financial Times infrastructure-financing item is pending a recoverable article URL and is recorded in `scripts/import-provenance.json`; it has not been silently given a generic source link. The September 21 EU incident-reporting story uses the European Commission's specific general-purpose AI obligations page because the source brief exposed no article URL. `scripts/source-briefs.json` preserves only the imported news brief messages for provenance. Article reading times for these imports estimate time to read the on-site summary and significance explanation, not the linked article.
+September 16–22 were imported from the source conversation: 34 stories across seven editions. The September 20 Financial Times infrastructure-financing item is pending a recoverable article URL and is recorded in `scripts/import-provenance.json`; it has not been silently given a generic source link. The September 21 EU incident-reporting story uses the European Commission's specific general-purpose AI obligations page because the source brief exposed no article URL. The September 22 financial-interconnection story uses the specific Axios analysis recovered from the source citation context. `scripts/source-briefs.json` preserves only the imported news brief messages for provenance. Article reading times for these imports estimate time to read the on-site summary and significance explanation, not the linked article.
 
-Run `npm test` to validate all edition dates, ordering, required story fields, HTTPS links and unique IDs, plus controls with blocked or malformed browser storage. Run `npm run build` to generate the website. The September 21 build generated 23 pages: the homepage and 22 dated editions. Browser checks cover category filtering and archive selection at the configured GitHub Pages base path.
+Run `npm test` to validate all edition dates, ordering, required story fields, HTTPS links and unique IDs, plus controls with blocked or malformed browser storage. Run `npm run build` to generate the website. The September 22 build generated 24 pages: the homepage and 23 dated editions. Browser checks cover category filtering and archive selection at the configured GitHub Pages base path.
 
 “Today” returns to the newest edition from any archive page. Archive links work without JavaScript through “View all editions.” Bookmarks persist in the current browser when storage is available and remain usable for the current page when storage is blocked. The repository is public with the owner's approval. The historical assignment notes above describe earlier checkpoints.
 
