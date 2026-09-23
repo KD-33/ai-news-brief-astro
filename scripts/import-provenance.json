@@ -1,6 +1,6 @@
 {
   "conversationId": "6a948097-76d4-83ea-a814-3d9112bfc046",
-  "importedOn": "2026-09-22",
+  "importedOn": "2026-09-23",
   "stories": [
     {
       "edition": "2026-09-16",
@@ -244,6 +244,41 @@
       "storyId": "2026-09-22-5",
       "sourceMessageId": "8b57f0f8-b5e2-4c7d-bfbb-8bf43b83420a",
       "url": "https://www.axios.com/2026/09/21/ai-finance-credit-circular",
+      "urlOrigin": "Recovered article source"
+    },
+    {
+      "edition": "2026-09-23",
+      "storyId": "2026-09-23-1",
+      "sourceMessageId": "ba70ec71-e936-4194-b5ad-718c35a3993b",
+      "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+      "urlOrigin": "Daily AI Brief link"
+    },
+    {
+      "edition": "2026-09-23",
+      "storyId": "2026-09-23-2",
+      "sourceMessageId": "ba70ec71-e936-4194-b5ad-718c35a3993b",
+      "url": "https://www.anthropic.com/claude-opus-5-5",
+      "urlOrigin": "Daily AI Brief link"
+    },
+    {
+      "edition": "2026-09-23",
+      "storyId": "2026-09-23-3",
+      "sourceMessageId": "ba70ec71-e936-4194-b5ad-718c35a3993b",
+      "url": "https://abcnews.com/Technology/wireStory/sen-bernie-sanders-unveils-bill-ban-artificial-superintelligence-136676811",
+      "urlOrigin": "Daily AI Brief link"
+    },
+    {
+      "edition": "2026-09-23",
+      "storyId": "2026-09-23-4",
+      "sourceMessageId": "ba70ec71-e936-4194-b5ad-718c35a3993b",
+      "url": "https://www.gatesfoundation.org/ideas/media-center/press-releases/2026/09/ai-language-partnership",
+      "urlOrigin": "Verified original source"
+    },
+    {
+      "edition": "2026-09-23",
+      "storyId": "2026-09-23-5",
+      "sourceMessageId": "ba70ec71-e936-4194-b5ad-718c35a3993b",
+      "url": "https://www.axios.com/2026/09/22/palo-alto-networks-cyber-defense-ai-agents",
       "urlOrigin": "Recovered article source"
     }
   ]

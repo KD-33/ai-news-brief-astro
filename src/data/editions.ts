@@ -21,6 +21,70 @@ export type Edition = {
 
 export const editions: Edition[] = [
 {
+  "slug": "2026-09-23",
+  "dateLabel": "September 23, 2026",
+  "dayLabel": "Wednesday",
+  "readingTime": "About 2 minutes",
+  "dek": "Today is unusually busy: OpenAI and Anthropic have effectively opened a price-and-performance battle with three new models, while Congress is seeing one of its most aggressive AI-regulation proposals yet.",
+  "stories": [
+    {
+      "id": "2026-09-23-1",
+      "category": "Companies & models",
+      "source": "OpenAI",
+      "date": "Sep 23, 2026",
+      "readTime": "1 min",
+      "title": "OpenAI launches GPT-6 Sol and GPT-6 Luna—and cuts prices sharply",
+      "summary": "OpenAI expanded the GPT-6 family below Astra with GPT-6 Sol, aimed at complex everyday and coding work, and GPT-6 Luna, optimized for fast, high-volume tasks. OpenAI says Sol makes roughly half as many mistakes as GPT-5.6 Sol. API pricing is also substantially lower: Sol starts at $2 per million input tokens, while Luna starts at $0.10.",
+      "why": "frontier-level capabilities are rapidly becoming cheaper to deploy. That could accelerate adoption of AI agents across businesses, universities and software products even if improvements in raw intelligence eventually slow.",
+      "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/"
+    },
+    {
+      "id": "2026-09-23-2",
+      "category": "Companies & models",
+      "source": "Anthropic",
+      "date": "Sep 23, 2026",
+      "readTime": "1 min",
+      "title": "Anthropic releases Claude Opus 5.5 with stronger coding—and stronger safety testing",
+      "summary": "Anthropic's new Claude Opus 5.5 is more than 30% faster than Opus 5 and costs roughly 40% less to run on typical workloads. Anthropic says attempts by the model to circumvent containment boundaries fell 85% relative to earlier models. Notably, independent organizations including METR and Frontier Design evaluated it before release.",
+      "why": "this is Anthropic's first major model release since CEO Dario Amodei called for “pacing the frontier.” It therefore provides an early example of what that philosophy may mean in practice: continue releasing stronger models, but pair capability gains with external evaluation and tighter safeguards.",
+      "url": "https://www.anthropic.com/claude-opus-5-5"
+    },
+    {
+      "id": "2026-09-23-3",
+      "category": "Policy & law",
+      "source": "Associated Press",
+      "date": "Sep 23, 2026",
+      "readTime": "1 min",
+      "title": "Sanders and Casar introduce legislation to ban artificial superintelligence",
+      "summary": "Sen. Bernie Sanders and Rep. Greg Casar are introducing legislation that would prohibit development of artificial superintelligence, pause some advanced-AI development and create a dedicated federal Department of AI.",
+      "why": "regardless of its prospects in Congress, this is a major escalation from proposals centered on transparency, audits or licensing. It puts an explicit statutory limit on AI capability development into the congressional debate just as the Trump administration is arguing for continued acceleration.",
+      "url": "https://abcnews.com/Technology/wireStory/sen-bernie-sanders-unveils-bill-ban-artificial-superintelligence-136676811"
+    },
+    {
+      "id": "2026-09-23-4",
+      "category": "Access & education",
+      "source": "Gates Foundation",
+      "date": "Sep 23, 2026",
+      "readTime": "1 min",
+      "title": "A 60-organization coalition targets AI's global language gap",
+      "summary": "The Gates Foundation has assembled a coalition including Anthropic, Microsoft, Google, the World Bank and the OpenAI Foundation aimed at making AI useful to the estimated 3.4 billion people who speak languages underrepresented in today's models. The five-year initiative plans to develop shared language datasets, benchmarks, applications and responsible-deployment practices.",
+      "why": "much of the AI-access debate focuses on who can afford models. Language is another major divide: a powerful AI system is considerably less useful if it cannot reliably understand a person's language, dialect or voice. This also has substantial implications for education in underserved regions.",
+      "url": "https://www.gatesfoundation.org/ideas/media-center/press-releases/2026/09/ai-language-partnership"
+    },
+    {
+      "id": "2026-09-23-5",
+      "category": "Cybersecurity",
+      "source": "Axios",
+      "date": "Sep 23, 2026",
+      "readTime": "1 min",
+      "title": "AI-assisted cybersecurity increasingly requires multiple models rather than one “best” model",
+      "summary": "Palo Alto Networks is launching a service that combines models from several developers to find vulnerabilities. Its internal testing reportedly found that no individual model detected more than 40% of vulnerabilities in complex environments.",
+      "why": "this is useful evidence against the idea that one frontier model will necessarily dominate every professional application. High-stakes AI systems may instead resemble teams of specialists—with different models cross-checking one another alongside humans.",
+      "url": "https://www.axios.com/2026/09/22/palo-alto-networks-cyber-defense-ai-agents"
+    }
+  ]
+},
+{
   "slug": "2026-09-22",
   "dateLabel": "September 22, 2026",
   "dayLabel": "Tuesday",
