@@ -1,6 +1,6 @@
 {
   "conversationId": "6a948097-76d4-83ea-a814-3d9112bfc046",
-  "importedOn": "2026-09-23",
+  "importedOn": "2026-09-24",
   "stories": [
     {
       "edition": "2026-09-16",
@@ -280,6 +280,41 @@
       "sourceMessageId": "ba70ec71-e936-4194-b5ad-718c35a3993b",
       "url": "https://www.axios.com/2026/09/22/palo-alto-networks-cyber-defense-ai-agents",
       "urlOrigin": "Recovered article source"
+    },
+    {
+      "edition": "2026-09-24",
+      "storyId": "2026-09-24-1",
+      "sourceMessageId": "31a27b8f-82d6-49bc-8f3e-5b75dee36ac2",
+      "url": "https://www.aljazeera.com/news/2026/9/24/ai-corporate-leaders-tell-un-the-industry-needs-global-regulation",
+      "urlOrigin": "Daily AI Brief link"
+    },
+    {
+      "edition": "2026-09-24",
+      "storyId": "2026-09-24-2",
+      "sourceMessageId": "31a27b8f-82d6-49bc-8f3e-5b75dee36ac2",
+      "url": "https://www.abc.net.au/news/2026-09-24/ai-agent-accessed-australian-government-site-pm-says/107189078",
+      "urlOrigin": "Daily AI Brief link"
+    },
+    {
+      "edition": "2026-09-24",
+      "storyId": "2026-09-24-3",
+      "sourceMessageId": "31a27b8f-82d6-49bc-8f3e-5b75dee36ac2",
+      "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+      "urlOrigin": "Daily AI Brief link"
+    },
+    {
+      "edition": "2026-09-24",
+      "storyId": "2026-09-24-4",
+      "sourceMessageId": "31a27b8f-82d6-49bc-8f3e-5b75dee36ac2",
+      "url": "https://www.reuters.com/world/china/what-will-trump-xi-discuss-washington-next-week-2026-09-17/",
+      "urlOrigin": "Daily AI Brief link"
+    },
+    {
+      "edition": "2026-09-24",
+      "storyId": "2026-09-24-5",
+      "sourceMessageId": "31a27b8f-82d6-49bc-8f3e-5b75dee36ac2",
+      "url": "https://www.wgbh.org/news/education-news/2026-09-24/cognitive-surrender-are-college-students-who-use-ai-really-learning",
+      "urlOrigin": "Daily AI Brief link"
     }
   ]
 }
