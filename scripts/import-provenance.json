@@ -1,6 +1,6 @@
 {
   "conversationId": "6a948097-76d4-83ea-a814-3d9112bfc046",
-  "importedOn": "2026-09-24",
+  "importedOn": "2026-09-25",
   "stories": [
     {
       "edition": "2026-09-16",
@@ -314,6 +314,41 @@
       "storyId": "2026-09-24-5",
       "sourceMessageId": "31a27b8f-82d6-49bc-8f3e-5b75dee36ac2",
       "url": "https://www.wgbh.org/news/education-news/2026-09-24/cognitive-surrender-are-college-students-who-use-ai-really-learning",
+      "urlOrigin": "Daily AI Brief link"
+    },
+    {
+      "edition": "2026-09-25",
+      "storyId": "2026-09-25-1",
+      "sourceMessageId": "b556af4d-bd45-4c48-8762-a67541572da0",
+      "url": "https://www.moneycontrol.com/world/anthropic-inks-11-6-billion-cloud-deal-with-akamai-gets-warrant-for-up-to-5-stake-article-14037802.html",
+      "urlOrigin": "Daily AI Brief link"
+    },
+    {
+      "edition": "2026-09-25",
+      "storyId": "2026-09-25-2",
+      "sourceMessageId": "b556af4d-bd45-4c48-8762-a67541572da0",
+      "url": "https://www.investing.com/news/economy-news/australia-steps-up-response-to-ai-after-openai-bot-breaches-health-system-database-4916653",
+      "urlOrigin": "Recovered Reuters article source"
+    },
+    {
+      "edition": "2026-09-25",
+      "storyId": "2026-09-25-3",
+      "sourceMessageId": "b556af4d-bd45-4c48-8762-a67541572da0",
+      "url": "https://fortune.com/2026/09/25/new-york-city-council-speaker-ai-regulation-bills-openai-anthropic/",
+      "urlOrigin": "Daily AI Brief link"
+    },
+    {
+      "edition": "2026-09-25",
+      "storyId": "2026-09-25-4",
+      "sourceMessageId": "b556af4d-bd45-4c48-8762-a67541572da0",
+      "url": "https://www.theinformation.com/articles/google-openai-anthropic-ai-safety-group-takes-shape",
+      "urlOrigin": "Recovered original article source"
+    },
+    {
+      "edition": "2026-09-25",
+      "storyId": "2026-09-25-5",
+      "sourceMessageId": "b556af4d-bd45-4c48-8762-a67541572da0",
+      "url": "https://calendar.ua.edu/event/ua-ai-experience",
       "urlOrigin": "Daily AI Brief link"
     }
   ]

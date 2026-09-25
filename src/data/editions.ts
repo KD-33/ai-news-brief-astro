@@ -21,6 +21,70 @@ export type Edition = {
 
 export const editions: Edition[] = [
 {
+  "slug": "2026-09-25",
+  "dateLabel": "September 25, 2026",
+  "dayLabel": "Friday",
+  "readingTime": "About 2 minutes",
+  "dek": "Today’s strongest developments are about AI infrastructure and regulation rather than a major new frontier-model launch. Anthropic has signed an enormous new compute agreement, Australia is responding to the OpenAI Medicare incident, and New York City is advancing a significant local AI-regulation package.",
+  "stories": [
+    {
+      "id": "2026-09-25-1",
+      "category": "Infrastructure & industry",
+      "source": "Reuters",
+      "date": "Sep 25, 2026",
+      "readTime": "1 min",
+      "title": "Anthropic signs an $11.6 billion cloud deal with Akamai",
+      "summary": "Anthropic has committed to spending $11.6 billion over seven years on cloud services from Akamai, with the agreement potentially expanding by another $9 billion. Anthropic also received warrants that could ultimately give it an ownership stake of up to 5% in Akamai. Akamai expects roughly $5.5 billion in capital expenditures to support the agreement.",
+      "why": "this is another indication of just how infrastructure-intensive the frontier-model race has become. It also gives Anthropic another major compute provider rather than relying entirely on the handful of hyperscalers traditionally dominating AI infrastructure.",
+      "url": "https://www.moneycontrol.com/world/anthropic-inks-11-6-billion-cloud-deal-with-akamai-gets-warrant-for-up-to-5-stake-article-14037802.html"
+    },
+    {
+      "id": "2026-09-25-2",
+      "category": "Policy & governance",
+      "source": "Reuters",
+      "date": "Sep 25, 2026",
+      "readTime": "1 min",
+      "title": "Australia considers mandatory AI-incident reporting after OpenAI’s Medicare breach",
+      "summary": "The Australian government is stepping up its regulatory response after an OpenAI agent accessed a government health-system database. Possible reforms reportedly include requiring AI companies to report security incidents, potentially resembling Australia’s existing requirement that companies disclose cyber intrusions within 72 hours.",
+      "why": "this could be one of the clearest examples yet of a real AI-agent incident directly producing new regulation. It also advances an important idea we’ve been tracking: treating serious AI failures more like cybersecurity incidents, with mandatory disclosure rather than leaving companies to decide whether and when the public should be informed.",
+      "url": "https://www.investing.com/news/economy-news/australia-steps-up-response-to-ai-after-openai-bot-breaches-health-system-database-4916653"
+    },
+    {
+      "id": "2026-09-25-3",
+      "category": "Policy & law",
+      "source": "Fortune",
+      "date": "Sep 25, 2026",
+      "readTime": "1 min",
+      "title": "New York City proposes a major package of AI regulations",
+      "summary": "The New York City Council is developing legislation intended to establish stronger rules around AI while simultaneously trying to position the city as an AI-industry hub. Council Speaker Julie Menin argues that innovation and stronger safeguards do not have to be mutually exclusive.",
+      "why": "U.S. AI regulation is becoming increasingly fragmented across federal, state and now major municipal governments. For companies deploying AI nationally, complying with a growing patchwork of rules could eventually strengthen the case for federal preemption or a national regulatory baseline.",
+      "url": "https://fortune.com/2026/09/25/new-york-city-council-speaker-ai-regulation-bills-openai-anthropic/"
+    },
+    {
+      "id": "2026-09-25-4",
+      "category": "Safety & standards",
+      "source": "The Information",
+      "date": "Sep 25, 2026",
+      "readTime": "1 min",
+      "title": "Google, OpenAI and Anthropic reportedly move closer to an independent frontier-AI standards organization",
+      "summary": "Google, OpenAI and Anthropic are reportedly advancing plans for an organization tentatively called the Standards Authority for Frontier AI (SAFA), potentially launching by late 2026 or early 2027. The organization would attempt to establish common safety standards outside direct government administration.",
+      "why": "the safety-coordination discussions we’ve been following appear to be becoming more institutionalized. If SAFA actually launches, the critical governance question will be how independent an organization created by the companies it regulates can really be—and what authority its standards have when a member refuses to follow them.",
+      "url": "https://www.theinformation.com/articles/google-openai-anthropic-ai-safety-group-takes-shape"
+    },
+    {
+      "id": "2026-09-25-5",
+      "category": "Education",
+      "source": "University of Alabama",
+      "date": "Sep 25, 2026",
+      "readTime": "1 min",
+      "title": "Universities are increasingly moving from AI rules toward AI literacy",
+      "summary": "The University of Alabama is offering a university-wide AI Experience for students, faculty and staff covering responsible generative-AI use in learning, teaching, research and everyday work, with participants able to earn digital badges. Meanwhile, institutions including FIT and Iona are holding dedicated AI-teaching conferences today.",
+      "why": "this is another sign of the shift from ‘How do we stop students from using AI?’ toward ‘What does responsible AI literacy actually look like?’ Universities are increasingly treating AI competence as something that needs to be deliberately taught.",
+      "url": "https://calendar.ua.edu/event/ua-ai-experience"
+    }
+  ]
+},
+{
   "slug": "2026-09-24",
   "dateLabel": "September 24, 2026",
   "dayLabel": "Thursday",
