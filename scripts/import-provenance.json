@@ -1,6 +1,6 @@
 {
   "conversationId": "6a948097-76d4-83ea-a814-3d9112bfc046",
-  "importedOn": "2026-09-25",
+  "importedOn": "2026-09-27",
   "stories": [
     {
       "edition": "2026-09-16",
@@ -349,6 +349,76 @@
       "storyId": "2026-09-25-5",
       "sourceMessageId": "b556af4d-bd45-4c48-8762-a67541572da0",
       "url": "https://calendar.ua.edu/event/ua-ai-experience",
+      "urlOrigin": "Daily AI Brief link"
+    },
+    {
+      "edition": "2026-09-26",
+      "storyId": "2026-09-26-1",
+      "sourceMessageId": "bd0ccc30-b17f-4cfa-81e7-48fc4d0e03d7",
+      "url": "https://abcnews.com/amp/Technology/wireStory/openai-models-engaged-us-government-websites-new-model-136774638",
+      "urlOrigin": "Recovered Associated Press article source"
+    },
+    {
+      "edition": "2026-09-26",
+      "storyId": "2026-09-26-2",
+      "sourceMessageId": "bd0ccc30-b17f-4cfa-81e7-48fc4d0e03d7",
+      "url": "https://www.reuters.com/video/watch/idRW491123092026RP1/",
+      "urlOrigin": "Daily AI Brief link"
+    },
+    {
+      "edition": "2026-09-26",
+      "storyId": "2026-09-26-3",
+      "sourceMessageId": "bd0ccc30-b17f-4cfa-81e7-48fc4d0e03d7",
+      "url": "https://www.reuters.com/business/meta-expected-unveil-smart-glasses-without-camera-privacy-concerns-grow-2026-09-23/",
+      "urlOrigin": "Daily AI Brief link"
+    },
+    {
+      "edition": "2026-09-26",
+      "storyId": "2026-09-26-4",
+      "sourceMessageId": "bd0ccc30-b17f-4cfa-81e7-48fc4d0e03d7",
+      "url": "https://www.theinformation.com/articles/google-nears-release-flagship-gemini-4-ai-model",
+      "urlOrigin": "Recovered original article source"
+    },
+    {
+      "edition": "2026-09-26",
+      "storyId": "2026-09-26-5",
+      "sourceMessageId": "bd0ccc30-b17f-4cfa-81e7-48fc4d0e03d7",
+      "url": "https://www.nature.com/articles/d41586-026-02370-2",
+      "urlOrigin": "Daily AI Brief link"
+    },
+    {
+      "edition": "2026-09-27",
+      "storyId": "2026-09-27-1",
+      "sourceMessageId": "8013c0e9-9977-4e8e-a6fc-8f6a7521aa35",
+      "url": "https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot/",
+      "urlOrigin": "Verified original source"
+    },
+    {
+      "edition": "2026-09-27",
+      "storyId": "2026-09-27-2",
+      "sourceMessageId": "8013c0e9-9977-4e8e-a6fc-8f6a7521aa35",
+      "url": "https://www.theguardian.com/technology/2026/sep/25/openai-agents-leaked-53-images-chatgpt",
+      "urlOrigin": "Daily AI Brief link"
+    },
+    {
+      "edition": "2026-09-27",
+      "storyId": "2026-09-27-3",
+      "sourceMessageId": "8013c0e9-9977-4e8e-a6fc-8f6a7521aa35",
+      "url": "https://www.aljazeera.com/news/2026/9/27/australia-summons-openai-and-anthropic-ceos-to-appear-at-ai-inquiry",
+      "urlOrigin": "Daily AI Brief link"
+    },
+    {
+      "edition": "2026-09-27",
+      "storyId": "2026-09-27-4",
+      "sourceMessageId": "8013c0e9-9977-4e8e-a6fc-8f6a7521aa35",
+      "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+      "urlOrigin": "Daily AI Brief link"
+    },
+    {
+      "edition": "2026-09-27",
+      "storyId": "2026-09-27-5",
+      "sourceMessageId": "8013c0e9-9977-4e8e-a6fc-8f6a7521aa35",
+      "url": "https://english.elpais.com/international/2026-09-27/from-mamdanis-veto-to-enthusiasm-in-estonia-schools-around-the-world-are-grappling-with-the-use-of-ai.html",
       "urlOrigin": "Daily AI Brief link"
     }
   ]
