@@ -1,7 +1,35 @@
 {
   "conversationId": "6a948097-76d4-83ea-a814-3d9112bfc046",
-  "importedOn": "2026-09-27",
+  "importedOn": "2026-09-28",
   "stories": [
+    {
+      "edition": "2026-09-28",
+      "storyId": "2026-09-28-1",
+      "sourceMessageId": "codex-automation-2026-09-28",
+      "url": "https://huggingface.co/NaiveAI/Naive-N0.5-Flash-FP8-Draft",
+      "urlOrigin": "Codex automation research; primary model card"
+    },
+    {
+      "edition": "2026-09-28",
+      "storyId": "2026-09-28-2",
+      "sourceMessageId": "codex-automation-2026-09-28",
+      "url": "https://fireworks.ai/blog/ember-1",
+      "urlOrigin": "Codex automation research; primary company announcement"
+    },
+    {
+      "edition": "2026-09-28",
+      "storyId": "2026-09-28-3",
+      "sourceMessageId": "codex-automation-2026-09-28",
+      "url": "https://www.goldmansachs.com/insights/articles/can-ai-investment-drive-s-p-500-earnings-even-higher",
+      "urlOrigin": "Codex automation research; primary research summary"
+    },
+    {
+      "edition": "2026-09-28",
+      "storyId": "2026-09-28-4",
+      "sourceMessageId": "codex-automation-2026-09-28",
+      "url": "https://www.wxxinews.org/npr-news/2026-09-28/welcome-to-the-wild-west-of-ai-in-schools-research-is-scarce-but-experiments-abound",
+      "urlOrigin": "Codex automation research; NPR reporting"
+    },
     {
       "edition": "2026-09-16",
       "storyId": "2026-09-16-1",

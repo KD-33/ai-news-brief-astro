@@ -21,6 +21,59 @@ export type Edition = {
 
 export const editions: Edition[] = [
 {
+  "slug": "2026-09-28",
+  "dateLabel": "September 28, 2026",
+  "dayLabel": "Monday",
+  "readingTime": "About 2 minutes",
+  "dek": "Today’s strongest signals are about efficiency and scale: new open and specialized models aim to deliver capable AI with less compute, even as the largest technology companies prepare to spend unprecedented sums on infrastructure.",
+  "stories": [
+    {
+      "id": "2026-09-28-1",
+      "category": "Models & open source",
+      "source": "NaiveAI",
+      "date": "Sep 28, 2026",
+      "readTime": "1 min",
+      "title": "NaiveAI releases a 309-billion-parameter open model with a native one-million-token context",
+      "summary": "NaiveAI released Naive-N0.5-Flash, an MIT-licensed mixture-of-experts model built for coding and AI research. It has 309 billion total parameters but activates 15.5 billion per token, combines sliding-window and sparse attention without full-attention layers, and supports a native one-million-token context window. The company’s benchmark results have not yet been independently verified.",
+      "why": "the release shows how open-model developers are using sparse architectures to pursue long context and strong coding performance without activating a frontier model’s full parameter count on every token. Its permissive license also makes the model unusually accessible for research and commercial adaptation, subject to the substantial hardware needed to run it.",
+      "url": "https://huggingface.co/NaiveAI/Naive-N0.5-Flash-FP8-Draft"
+    },
+    {
+      "id": "2026-09-28-2",
+      "category": "Models & efficiency",
+      "source": "Fireworks AI",
+      "date": "Sep 28, 2026",
+      "readTime": "1 min",
+      "title": "Fireworks trains a reasoning model to use roughly 40% fewer output tokens",
+      "summary": "Fireworks AI introduced Ember-1, a research-preview model post-trained from Kimi K3 for coding and agentic work. Fireworks says Ember-1 produced about 40% fewer output tokens while maintaining comparable quality across its evaluations, and reduced reasoning tokens by 71.3% in one production analysis. These figures come from Fireworks’ own testing rather than independent evaluation.",
+      "why": "agent costs depend on how many tokens a model generates across long tool-using workflows, not only on the advertised price per token. If the reported results generalize, post-training models to reason more concisely could become an important route to cheaper and faster agents without simply shrinking the base model.",
+      "url": "https://fireworks.ai/blog/ember-1"
+    },
+    {
+      "id": "2026-09-28-3",
+      "category": "Infrastructure & economics",
+      "source": "Goldman Sachs",
+      "date": "Sep 28, 2026",
+      "readTime": "1 min",
+      "title": "Goldman Sachs projects hyperscaler capital spending will reach $1.2 trillion in 2027",
+      "summary": "Goldman Sachs Research expects the largest cloud and technology companies to spend about $1.2 trillion on capital projects in 2027 and $1.4 trillion in 2028, much of it tied to AI infrastructure. The firm estimates that AI-related investment accounted for almost half of S&P 500 earnings-per-share growth in 2026.",
+      "why": "the AI race is becoming a macroeconomic and market story as much as a model-capability contest. Spending at this scale raises both the potential productivity payoff and the risk that data-center investment, power demand and stock valuations are becoming dependent on AI revenue growing fast enough to justify the buildout.",
+      "url": "https://www.goldmansachs.com/insights/articles/can-ai-investment-drive-s-p-500-earnings-even-higher"
+    },
+    {
+      "id": "2026-09-28-4",
+      "category": "Education",
+      "source": "NPR",
+      "date": "Sep 28, 2026",
+      "readTime": "1 min",
+      "title": "Schools are experimenting with AI faster than researchers can measure the results",
+      "summary": "NPR reports that U.S. schools are piloting a wide range of AI tools, including tutoring and social-emotional learning chatbots, while rigorous evidence about educational benefits and harms remains limited. Approaches vary sharply by district, and educators are often making adoption decisions before independent research can establish what works.",
+      "why": "education policy is moving from abstract debate to large-scale experimentation with children. Without shared evaluation standards, schools may discover useful teaching practices—but they also risk adopting products before understanding their effects on learning, privacy, student relationships and dependence on automated guidance.",
+      "url": "https://www.wxxinews.org/npr-news/2026-09-28/welcome-to-the-wild-west-of-ai-in-schools-research-is-scarce-but-experiments-abound"
+    }
+  ]
+},
+{
   "slug": "2026-09-27",
   "dateLabel": "September 27, 2026",
   "dayLabel": "Sunday",
