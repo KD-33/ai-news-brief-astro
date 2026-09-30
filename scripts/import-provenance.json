@@ -1,7 +1,63 @@
 {
   "conversationId": "6a948097-76d4-83ea-a814-3d9112bfc046",
-  "importedOn": "2026-09-28",
+  "importedOn": "2026-09-30",
   "stories": [
+    {
+      "edition": "2026-09-30",
+      "storyId": "2026-09-30-1",
+      "sourceMessageId": "codex-automation-2026-09-30",
+      "url": "https://www.axios.com/2026/09/30/ai-profits-spending-hyperscalers",
+      "urlOrigin": "Codex automation research; Axios reporting"
+    },
+    {
+      "edition": "2026-09-30",
+      "storyId": "2026-09-30-2",
+      "sourceMessageId": "codex-automation-2026-09-30",
+      "url": "https://www.marketscreener.com/news/anthropic-s-ipo-prospectus-shows-sweeping-ai-vision-surging-costs-ce785addd98afe2c",
+      "urlOrigin": "Codex automation research; Reuters report syndicated by MarketScreener"
+    },
+    {
+      "edition": "2026-09-30",
+      "storyId": "2026-09-30-3",
+      "sourceMessageId": "codex-automation-2026-09-30",
+      "url": "https://www.whitehouse.gov/presidential-actions/2026/09/inaugurating-the-era-of-super-intelligence/",
+      "urlOrigin": "Codex automation research; primary executive order"
+    },
+    {
+      "edition": "2026-09-29",
+      "storyId": "2026-09-29-1",
+      "sourceMessageId": "codex-automation-2026-09-29",
+      "url": "https://developers.openai.com/api/docs/changelog",
+      "urlOrigin": "Codex automation research; primary product changelog"
+    },
+    {
+      "edition": "2026-09-29",
+      "storyId": "2026-09-29-2",
+      "sourceMessageId": "codex-automation-2026-09-29",
+      "url": "https://deploymentsafety.openai.com/gpt-6-astra/evaluating-auto-review",
+      "urlOrigin": "Codex automation research; primary deployment-safety evaluation"
+    },
+    {
+      "edition": "2026-09-29",
+      "storyId": "2026-09-29-3",
+      "sourceMessageId": "codex-automation-2026-09-29",
+      "url": "https://apnews.com/article/595796511f110fc006cca0d01329733e",
+      "urlOrigin": "Codex automation research; Associated Press reporting"
+    },
+    {
+      "edition": "2026-09-29",
+      "storyId": "2026-09-29-4",
+      "sourceMessageId": "codex-automation-2026-09-29",
+      "url": "https://apnews.com/article/5afb865b2cddc439efdcf31ebdc406a5",
+      "urlOrigin": "Codex automation research; Associated Press reporting"
+    },
+    {
+      "edition": "2026-09-29",
+      "storyId": "2026-09-29-5",
+      "sourceMessageId": "codex-automation-2026-09-29",
+      "url": "https://www.anthropic.com/research/your-thoughts-on-ai",
+      "urlOrigin": "Codex automation research; primary research announcement"
+    },
     {
       "edition": "2026-09-28",
       "storyId": "2026-09-28-1",
