@@ -1,7 +1,42 @@
 {
   "conversationId": "6a948097-76d4-83ea-a814-3d9112bfc046",
-  "importedOn": "2026-09-30",
+  "importedOn": "2026-10-11",
   "stories": [
+    {
+      "edition": "2026-10-11",
+      "storyId": "2026-10-11-1",
+      "sourceMessageId": "codex-automation-2026-10-11",
+      "url": "https://mistral.ai/news/mistral-large-4/",
+      "urlOrigin": "Codex automation research; primary model announcement"
+    },
+    {
+      "edition": "2026-10-11",
+      "storyId": "2026-10-11-2",
+      "sourceMessageId": "codex-automation-2026-10-11",
+      "url": "https://www.anthropic.com/claude/haiku",
+      "urlOrigin": "Codex automation research; primary model announcement"
+    },
+    {
+      "edition": "2026-10-11",
+      "storyId": "2026-10-11-3",
+      "sourceMessageId": "codex-automation-2026-10-11",
+      "url": "https://www.anthropic.com/news/investigating-unintended-model-actions",
+      "urlOrigin": "Codex automation research; primary incident report"
+    },
+    {
+      "edition": "2026-10-11",
+      "storyId": "2026-10-11-4",
+      "sourceMessageId": "codex-automation-2026-10-11",
+      "url": "https://ico.org.uk/about-the-ico/media-centre/news-and-blogs/2026/10/ico-secures-changes-from-leading-ai-developers-as-scrutiny-extends-to-ai-agents",
+      "urlOrigin": "Codex automation research; primary regulator announcement"
+    },
+    {
+      "edition": "2026-10-11",
+      "storyId": "2026-10-11-5",
+      "sourceMessageId": "codex-automation-2026-10-11",
+      "url": "https://www.anthropic.com/news/claude-frontier-academy",
+      "urlOrigin": "Codex automation research; primary education announcement"
+    },
     {
       "edition": "2026-09-30",
       "storyId": "2026-09-30-1",
